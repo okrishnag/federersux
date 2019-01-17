@@ -178,7 +178,95 @@
 <iframe height="700px" width="100%" src="https://repl.it/@ChinoRutta/RandomPasswordGenerator?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 </center>
 
+
+
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<h2>Image Overlay Title</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="images/original.jpg" height="400" alt="Avatar" class="image">
+  <div class="overlay">This is our original picture that we chose to modfy. It was taken on Kilauea Lava Flow in Hawaii</div>
+</div>
+
+<div class="container">
+  <img src="images/modified.png" height="400" alt="Avatar" class="image">
+  <div class="overlay">This is our modified picture We changed the colors of the image</div>
+</div>
+
+<h2>Python Graph</h2>
+
+<p>In this project, we took a specific set of data off the internet on the number of deaths caused by natural disasters by year. 
+The data was then put through python code that reads the data and transforms it into a scatterplot, making the data easier
+and more efficient to read. The y-axis is the number of deaths and the x-axis is the number of years from 1980. The question answered
+by the graph is whether or not the number decreased due to better preparation throughout the years
+<br>
+<br>
+<br>
+<img src="images/bob.PNG" height="400"> <img src="images/deb.PNG" height="400">
+</p>
 </body>
 
-</html>
+<h2>NetLogo Remix</h2>
+
+<p>For this project, we picked a simulation for the spreading of HIV within a population. This example answers the question of how fast HIV 
+spreads within a population and how many people are aware that they are infected. We modified the code to change the infected people who dont
+know that they have the disease to yellow instead of blue. Additionally,we changed the rate of infection from 50% to 27%, the initial number 
+of people infected from 25 to 20, and symptoms of the disase arising from 200 weeks to 4 weeks to make it more realistic.</p>
+<center>
+<img src="images/first.PNG" height="400"> <img src="images/second.PNG" height="400">
+<br>
+<br>
+<br>
+<img src="images/third.PNG" height="400">
+
+</center>
+
+
+
+
+
+
+
+
 
